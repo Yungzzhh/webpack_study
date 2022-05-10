@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.5.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "3.11.2"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack serve --mode development",
+    "test": "cross-env NODE_ENV=test webpack --mode production",
+    "build": "cross-env NODE_ENV=prod webpack --mode production"
+  },
+  "dependencies": {
+    "postcss": "^8.4.13"
+  }
+}
