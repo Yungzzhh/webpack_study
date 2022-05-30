@@ -1,4 +1,8 @@
 # vue3_base
+## Init
+- vue create xxx
+- yarn 
+- yarn serve
 
 ## Project setup
 ```
@@ -17,3 +21,13 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Composition API
+#### setup
+#### reactve
+#### ref
+#### toRefs
+#### watch
+#### watchEffect
+#### computed
+#### lifecycle
