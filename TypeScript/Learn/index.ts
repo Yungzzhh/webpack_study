@@ -136,5 +136,5 @@ function fn(x: string | object) {
     // .....
   }
 }
-
+export {}
 

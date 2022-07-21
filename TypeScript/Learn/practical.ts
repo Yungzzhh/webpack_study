@@ -62,5 +62,5 @@ let p2: PartPerson = {};
  * Record<K,T>
  * Omit<K,T> 
  */
-
+ export {}
 

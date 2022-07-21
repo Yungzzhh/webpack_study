@@ -56,3 +56,4 @@ let a = createAnimal(Animal2, "hello");
 
 
 
+export {}

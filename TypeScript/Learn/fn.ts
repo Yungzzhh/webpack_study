@@ -27,3 +27,4 @@ attr("hahaha");
 attr(9);
 // attr(true); err
 console.log(obj);
+export {}

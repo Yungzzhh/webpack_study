@@ -7,11 +7,12 @@ function addNameEat(constructor: Function) {
 }
 @addNameEat
 class Personal {
-  name!: string;
+  name!: string; //!用于表示类型推断排除null、undefined
   eat!: Function;
   constructor() {}
 }
 let p3: Personal = new Personal();
-console.log(p3.name);
-p3.eat();
+// console.log(p3.name);
+// p3.eat();
+console.log(p3);
 

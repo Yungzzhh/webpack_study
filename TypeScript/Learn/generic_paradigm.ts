@@ -66,3 +66,4 @@ let c1: Carts<string> = { list: ["1"] };
 let c2: Carts<number> = [1];
 
 
+export {}

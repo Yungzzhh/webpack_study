@@ -99,3 +99,5 @@ let dog = new Dog()
 let animal: Animal[] = [dog, cat]
 animal.forEach(i=> i.speak())
 // cat.speak()
+
+export {}

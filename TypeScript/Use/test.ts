@@ -23,3 +23,4 @@ const arr_test: Array<number> = [1,2,3,4,5,6]
 const arr_log: Array<number> = arr_test.slice(2)
 console.log(arr_log);
 
+export {}

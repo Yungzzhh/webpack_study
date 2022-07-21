@@ -33,3 +33,5 @@ function tranform(router: Array<routerPath>):Object {
   return {}
 }
 tranform(router)
+
+export {}
